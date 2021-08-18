@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js from valid</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon2.png">
+</head>
+<body>
+  <div class="form-container">
+      <form>
+        <h1>Registration from</h1>
+          <div class="input-gorup">
+            <input type="text" placeholder="first name" id="fname">
+            <small id="errfname"></small>
+          </div>
+          <div class="input-gorup">
+            <input type="text" placeholder="last name" id="lname">
+            <small id="errlname"></small>
+          </div>
+          <div class="input-gorup">
+            <input type="email" placeholder="email" id="email">
+            <small id="erremail"></small>
+          </div>
+          <div class="input-gorup">
+            <input type="password" placeholder="password" id="password">
+            <small id="errpassword"></small>
+          </div>
+          <div class="input-gorup">
+            <input type="password" placeholder="confrim  password" id="repassword">
+            <small id="errrepassword"></small>
+          </div>
+          <button onclick="return subm()">submit</button>
+      </form>
+  </div>
+
+
+    <script src="js/custom.js"></script>
+</body>
+</html>
